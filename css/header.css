@@ -1,0 +1,28 @@
+header {
+    background-color: #ff5722; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #d32f2f; 
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-family: 'Helvetica', sans-serif;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    
+    border: solid;
+    border-radius: 10%;
+    border-color: #d32f2f;
+    background-color:#1132b5;
+    transition: 300ms;
+}

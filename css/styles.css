@@ -1,0 +1,37 @@
+@import URL(header.css);
+@import URL(footer.css);
+@import URL(cards.css);
+
+/* Estilo general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo de la página y fuente */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #072083; 
+    color: #333; 
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .character-grid, .planet-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}

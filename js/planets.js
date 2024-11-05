@@ -15,7 +15,7 @@ async function fetchplanets() {
 
 function createplanetCard({ name, isDestroyed, description, image }) {
   return `
-        <div class="planetCard" style="width: 1rem;">
+        <div class="planetCard" style="width: 18rem;">
             <img src="${image}" class="card-img-top" alt="${name}">
             <div class="card-body">
                 <h1>${name}</h1>
