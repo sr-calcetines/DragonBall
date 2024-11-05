@@ -1,0 +1,59 @@
+.character-grid, .planet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px; 
+    padding: 10px;
+}
+
+.characterCard, .planetCard {
+    background: #ffffff; 
+    background-image: url(https://c.pxhere.com/photos/d0/b4/crystal_ball_dragon_shenron_manga_japanese_glass_yellow-1392117.jpg!d);
+    border: 3px solid #ff5722; 
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out; 
+    max-width: 18em;
+    max-height: 50em;
+}
+
+.characterCard:hover, .planetCard:hover {
+    transform: translateY(-10px); 
+}
+
+.card-img-top {
+    width: auto;
+    height: auto;
+    max-width: 20em; 
+    max-height: 20em; 
+    object-fit: contain; 
+    margin: auto;
+}
+
+.card-body {
+    padding: 15px;
+    background-color: #f5f5f5; 
+}
+
+.card-body h1, .card-body h2 {
+    color: #ff5722; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-body h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.card-body h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    color: #333; 
+}
+
+.card-body h2:last-child {
+    margin-bottom: 0;
+}
