@@ -7,7 +7,8 @@
 
 .characterCard, .planetCard {
     background: #ffffff; 
-    background-image: url(https://c.pxhere.com/photos/d0/b4/crystal_ball_dragon_shenron_manga_japanese_glass_yellow-1392117.jpg!d);
+    
+   
     border: 3px solid #ff5722; 
     border-radius: 10px;
     overflow: hidden; 
@@ -24,10 +25,12 @@
 .card-img-top {
     width: auto;
     height: auto;
+    min-width: 18em;
     max-width: 20em; 
     max-height: 20em; 
     object-fit: contain; 
     margin: auto;
+    background-image: url(https://c.pxhere.com/photos/d0/b4/crystal_ball_dragon_shenron_manga_japanese_glass_yellow-1392117.jpg!d);
 }
 
 .card-body {
