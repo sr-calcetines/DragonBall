@@ -1,13 +1,16 @@
 # Dragon Ball Project 🐉🟠
 
-This is an API consumption project, in which two Dragon Ball API outputs have been extracted that allow us to display a list of characters and planets from this universe in card format. Each character/planet displays a number of unique characteristics extracted directly from the original json.
+This is an API consumption project, in which two [Dragon Ball API](https://web.dragonball-api.com/)
+ outputs have been extracted that allow us to display a list of characters and planets from this universe in card format. Each character/planet displays a number of unique characteristics extracted directly from the original json.
 
 
-View of the characters:
+<p align="center">View of the characters: </p>
+
 ![image](https://github.com/user-attachments/assets/09ecef3f-636e-4f87-b380-9a6db9ce6516)
 
 
-View of the planets
+<p align="center">View of the planets: </p>
+
 ![image](https://github.com/user-attachments/assets/9a9f43ec-23b1-45ea-85da-593bc5b38331)
 
 
@@ -15,7 +18,7 @@ View of the planets
 
 In this case, as it is a project hosted on github pages, so it can be accessed by using this link:
 
-(https://linkejemplo.com)
+https://sr-calcetines.github.io/DragonBall/
 
 However, if you want to enjoy the project locally, you can do so by following these steps:
 
